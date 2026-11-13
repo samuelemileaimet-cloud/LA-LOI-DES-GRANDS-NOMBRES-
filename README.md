@@ -1,5 +1,5 @@
 # LA-LOI-DES-GRANDS-NOMBRES : application au capteur bruite (cas du thermometre)
-
+''' r 
 set.seed(2026)
 
 #   paramtères du capteur
@@ -56,5 +56,5 @@ cat("P(|Mn - mu| >= epsilon) observee :", mean(abs(moy - valeur_vraie) >= epsilo
 x <- simuler_capteur(1e5, valeur_vraie, sigma, biais = 0.3)
 cat("\nAvec un biais de 0.3, la moyenne sur 1e5 mesures vaut", round(mean(x), 3),
     "(et non", valeur_vraie, ")\n")
-
+'''
 
